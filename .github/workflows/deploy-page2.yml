@@ -11,8 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Build site
-        run: yarn build
       - name: Test JavaScript
         run: yarn test
       - name: Deploy to GitHub Pages
