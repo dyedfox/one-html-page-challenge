@@ -22,6 +22,6 @@ jobs:
           path: '.'
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          target-branch: gh-pages
+        #with:
+      #    token: ${{ secrets.GITHUB_TOKEN }}
+       #   target-branch: gh-pages
